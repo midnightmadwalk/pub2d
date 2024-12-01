@@ -1,0 +1,808 @@
+{
+    "ecosystems": [
+        {
+            "name": "A1a ecosystem",
+            "tokens": [
+                {
+                    "name": "TokenA1A",
+                    "contract_address": "0x697fc467720B2a8e1b2F7F665d0e3f28793E65e8",
+                    "ticker": "A1A",
+                    "decimal": 18,
+                    "supply": "10000000000000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x697fc467720b2a8e1b2f7f665d0e3f28793e65e8.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": false,
+                    "reflection_token": true,
+                    "holders": "3791",
+                    "rewards_token": "A1A",
+                    "description": "A token in the A1a ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x697fc467720B2a8e1b2F7F665d0e3f28793E65e8",
+                        "https://dexscreener.com/pulsechain/0x697fc467720B2a8e1b2F7F665d0e3f28793E65e8"
+                    ]
+                },
+                {
+                    "name": "TokenB2B",
+                    "contract_address": "0x6d2dc71AFa00484C48bfF8160dbDdB7973c37A5E",
+                    "ticker": "B2B",
+                    "decimal": 18,
+                    "supply": "10000000000000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x6d2dc71afa00484c48bff8160dbddb7973c37a5e.png?size=lg",
+                    "buy_tax": 2,
+                    "sell_tax": 2,
+                    "reward_token": false,
+                    "reflection_token": true,
+                    "holders": "2063",
+                    "rewards_token": "A1A",
+                    "description": "A token in the A1a ecosystem ecosystem with a 2% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x6d2dc71AFa00484C48bfF8160dbDdB7973c37A5E",
+                        "https://dexscreener.com/pulsechain/0x6d2dc71AFa00484C48bfF8160dbDdB7973c37A5E"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "PlSXmas ecosyem ",
+            "tokens": [
+                {
+                    "name": "plsXmas",
+                    "contract_address": "0x708130C48511942B1488118BBDF5Ca68f0b5C6fe",
+                    "ticker": "PLSXm",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x708130c48511942b1488118bbdf5ca68f0b5c6fe.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1202",
+                    "rewards_token": "PLSX",
+                    "description": "A token in the PlaXmas ecosyem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x708130C48511942B1488118BBDF5Ca68f0b5C6fe",
+                        "https://dexscreener.com/pulsechain/0x708130C48511942B1488118BBDF5Ca68f0b5C6fe"
+                    ]
+                },
+                {
+                    "name": "DaiHard",
+                    "contract_address": "0xB6Bad00525221EB28Eb911a0B1162a0709b4CE57",
+                    "ticker": "HARD",
+                    "decimal": 9,
+                    "supply": "7777777000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xb6bad00525221eb28eb911a0b1162a0709b4ce57.png?size=lg",
+                    "buy_tax": 10,
+                    "sell_tax": 10,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "3166",
+                    "rewards_token": "DAI",
+                    "description": "A token in the PlaXmas ecosyem ecosystem with a 10% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xB6Bad00525221EB28Eb911a0B1162a0709b4CE57",
+                        "https://dexscreener.com/pulsechain/0xB6Bad00525221EB28Eb911a0B1162a0709b4CE57"
+                    ]
+                },
+                {
+                    "name": "LiveFree",
+                    "contract_address": "0x6E22dCFDf550f35b68276216BD46F51D99B77263",
+                    "ticker": "FREE",
+                    "decimal": 9,
+                    "supply": "21000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x6e22dcfdf550f35b68276216bd46f51d99b77263.png?size=lg",
+                    "buy_tax": 5,
+                    "sell_tax": 5,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1215",
+                    "rewards_token": "WBTC",
+                    "description": "A token in the PlaXmas ecosyem ecosystem with a 5% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x6E22dCFDf550f35b68276216BD46F51D99B77263",
+                        "https://dexscreener.com/pulsechain/0x6E22dCFDf550f35b68276216BD46F51D99B77263"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Methlab ecosystem Ecosystem",
+            "tokens": [
+                {
+                    "name": "mEthLab",
+                    "contract_address": "0xD49688BDd162feaC18026CEA6c7546b4eaD67089",
+                    "ticker": "mETH",
+                    "decimal": 9,
+                    "supply": "10000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xd49688bdd162feac18026cea6c7546b4ead67089.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1986",
+                    "rewards_token": "WETH",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xD49688BDd162feaC18026CEA6c7546b4eaD67089",
+                        "https://dexscreener.com/pulsechain/0xD49688BDd162feaC18026CEA6c7546b4eaD67089"
+                    ]
+                },
+                {
+                    "name": "mETH",
+                    "contract_address": "0xf3f7301ADeE9D32486E86B6992d04e0e8Ba7D139",
+                    "ticker": "mETH",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xf3f7301adee9d32486e86b6992d04e0e8ba7d139.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1125",
+                    "rewards_token": "eWETH",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xf3f7301ADeE9D32486E86B6992d04e0e8Ba7D139",
+                        "https://dexscreener.com/pulsechain/0xf3f7301ADeE9D32486E86B6992d04e0e8Ba7D139"
+                    ]
+                },
+                {
+                    "name": "mDAI",
+                    "contract_address": "0x0990DEAD50d6A9e13A7cF44D00A6020ea725E7c8",
+                    "ticker": "mDAI",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x0990dead50d6a9e13a7cf44d00a6020ea725e7c8.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1180",
+                    "rewards_token": "eDAI",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x0990DEAD50d6A9e13A7cF44D00A6020ea725E7c8",
+                        "https://dexscreener.com/pulsechain/0x0990DEAD50d6A9e13A7cF44D00A6020ea725E7c8"
+                    ]
+                },
+                {
+                    "name": "mBTC",
+                    "contract_address": "0xa1AED13D95c1EaF0c69a77bB339B07F382FCd7Dd",
+                    "ticker": "mBTC",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xa1aed13d95c1eaf0c69a77bb339b07f382fcd7dd.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1040",
+                    "rewards_token": "eBTC",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xa1AED13D95c1EaF0c69a77bB339B07F382FCd7Dd",
+                        "https://dexscreener.com/pulsechain/0xa1AED13D95c1EaF0c69a77bB339B07F382FCd7Dd"
+                    ]
+                },
+                {
+                    "name": "mLINK",
+                    "contract_address": "0xF924dA4B2dDf0e8474c65eE046FBd07aBC6c8E48",
+                    "ticker": "mLINK",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xf924da4b2ddf0e8474c65ee046fbd07abc6c8e48.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "988",
+                    "rewards_token": "eLINK",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xF924dA4B2dDf0e8474c65eE046FBd07aBC6c8E48",
+                        "https://dexscreener.com/pulsechain/0xF924dA4B2dDf0e8474c65eE046FBd07aBC6c8E48"
+                    ]
+                },
+                {
+                    "name": "mDOGE",
+                    "contract_address": "0x868C653ACD878dAfA2a4Aa70421f40c0FEc614A8",
+                    "ticker": "mDOGE",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x868c653acd878dafa2a4aa70421f40c0fec614a8.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "982",
+                    "rewards_token": "eDOGE",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x868C653ACD878dAfA2a4Aa70421f40c0FEc614A8",
+                        "https://dexscreener.com/pulsechain/0x868C653ACD878dAfA2a4Aa70421f40c0FEc614A8"
+                    ]
+                },
+                {
+                    "name": "mMATIC",
+                    "contract_address": "0x4B0Cc8809D9Ec2eA72F3B1bccb8d0b7597320683",
+                    "ticker": "mMATIC",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x4b0cc8809d9ec2ea72f3b1bccb8d0b7597320683.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "963",
+                    "rewards_token": "eMATIC",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x4B0Cc8809D9Ec2eA72F3B1bccb8d0b7597320683",
+                        "https://dexscreener.com/pulsechain/0x4B0Cc8809D9Ec2eA72F3B1bccb8d0b7597320683"
+                    ]
+                },
+                {
+                    "name": "mPAXG",
+                    "contract_address": "0xAfCAEf62344C5242C20158Eb7530bA4cE78de18C",
+                    "ticker": "mPAXG",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xafcaef62344c5242c20158eb7530ba4ce78de18c.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "987",
+                    "rewards_token": "ePAXG",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xAfCAEf62344C5242C20158Eb7530bA4cE78de18C",
+                        "https://dexscreener.com/pulsechain/0xAfCAEf62344C5242C20158Eb7530bA4cE78de18C"
+                    ]
+                },
+                {
+                    "name": "mSOL",
+                    "contract_address": "0xA9208EeD6251E5ccd4d495d8c1c63f78588453d7",
+                    "ticker": "mSOL",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xa9208eed6251e5ccd4d495d8c1c63f78588453d7.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "975",
+                    "rewards_token": "eWSOL",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xA9208EeD6251E5ccd4d495d8c1c63f78588453d7",
+                        "https://dexscreener.com/pulsechain/0xA9208EeD6251E5ccd4d495d8c1c63f78588453d7"
+                    ]
+                },
+                {
+                    "name": "mBNB",
+                    "contract_address": "0xBe85cAAcDF811649C7d30598B2bc5674549c5BD5",
+                    "ticker": "mBNB",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xbe85caacdf811649c7d30598b2bc5674549c5bd5.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "984",
+                    "rewards_token": "eWBNB",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xBe85cAAcDF811649C7d30598B2bc5674549c5BD5",
+                        "https://dexscreener.com/pulsechain/0xBe85cAAcDF811649C7d30598B2bc5674549c5BD5"
+                    ]
+                },
+                {
+                    "name": "mFRAX",
+                    "contract_address": "0x26d979A0C0830e02eB3b4cA6B1d1d0b6263c188f",
+                    "ticker": "mFRAX",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x26d979a0c0830e02eb3b4ca6b1d1d0b6263c188f.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "973",
+                    "rewards_token": "eFRAX",
+                    "description": "A token in the Methlab ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x26d979A0C0830e02eB3b4cA6B1d1d0b6263c188f",
+                        "https://dexscreener.com/pulsechain/0x26d979A0C0830e02eB3b4cA6B1d1d0b6263c188f"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Rewardr ecosystem Ecosystem",
+            "tokens": [
+                {
+                    "name": "REWARDr",
+                    "contract_address": "0x5b17A3D673C47c30a1E87e238DD31AD437158141",
+                    "ticker": "RWDr",
+                    "decimal": 9,
+                    "supply": "100000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x5b17a3d673c47c30a1e87e238dd31ad437158141.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1669",
+                    "rewards_token": "PLS",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x5b17A3D673C47c30a1E87e238DD31AD437158141",
+                        "https://dexscreener.com/pulsechain/0x5b17A3D673C47c30a1E87e238DD31AD437158141"
+                    ]
+                },
+                {
+                    "name": "DAIr",
+                    "contract_address": "0x47273Ee3360B936E1c9F2BC808dA76e1Df4B43c4",
+                    "ticker": "DAIr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x47273ee3360b936e1c9f2bc808da76e1df4b43c4.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1202",
+                    "rewards_token": "DAI",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x47273Ee3360B936E1c9F2BC808dA76e1Df4B43c4",
+                        "https://dexscreener.com/pulsechain/0x47273Ee3360B936E1c9F2BC808dA76e1Df4B43c4"
+                    ]
+                },
+                {
+                    "name": "TETHr",
+                    "contract_address": "0xD5E6E4E24Cb3cee9277C7A957d39BFE83C8fFaa2",
+                    "ticker": "TETHr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xd5e6e4e24cb3cee9277c7a957d39bfe83c8ffaa2.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "263",
+                    "rewards_token": "USDT",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xD5E6E4E24Cb3cee9277C7A957d39BFE83C8fFaa2",
+                        "https://dexscreener.com/pulsechain/0xD5E6E4E24Cb3cee9277C7A957d39BFE83C8fFaa2"
+                    ]
+                },
+                {
+                    "name": "USDCr",
+                    "contract_address": "0x282Cecf3FeF68cf38eE3e3880F69572C376b9Cc1",
+                    "ticker": "USDCr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x282cecf3fef68cf38ee3e3880f69572c376b9cc1.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1065",
+                    "rewards_token": "USDC",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x282Cecf3FeF68cf38eE3e3880F69572C376b9Cc1",
+                        "https://dexscreener.com/pulsechain/0x282Cecf3FeF68cf38eE3e3880F69572C376b9Cc1"
+                    ]
+                },
+                {
+                    "name": "USDPr",
+                    "contract_address": "0x737Fd5b88524D0B90B984ba4F64A6b81B1A1Dbc0",
+                    "ticker": "USDPr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x737fd5b88524d0b90b984ba4f64a6b81b1a1dbc0.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1079",
+                    "rewards_token": "USDP",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x737Fd5b88524D0B90B984ba4F64A6b81B1A1Dbc0",
+                        "https://dexscreener.com/pulsechain/0x737Fd5b88524D0B90B984ba4F64A6b81B1A1Dbc0"
+                    ]
+                },
+                {
+                    "name": "INCr",
+                    "contract_address": "0x75DA7F3e6811E56B6F8e0a21ea79cffAeF0Fc2B8",
+                    "ticker": "INCr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x75da7f3e6811e56b6f8e0a21ea79cffaef0fc2b8.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1319",
+                    "rewards_token": "INC",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x75DA7F3e6811E56B6F8e0a21ea79cffAeF0Fc2B8",
+                        "https://dexscreener.com/pulsechain/0x75DA7F3e6811E56B6F8e0a21ea79cffAeF0Fc2B8"
+                    ]
+                },
+                {
+                    "name": "BEAr",
+                    "contract_address": "0x2CDA6C4d9c0F27d2565D688D292d3b0568DD613b",
+                    "ticker": "BEAr",
+                    "decimal": 9,
+                    "supply": "2000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x2cda6c4d9c0f27d2565d688d292d3b0568dd613b.png?size=lg",
+                    "buy_tax": 3,
+                    "sell_tax": 3,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1105",
+                    "rewards_token": "BEAR",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 3% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x2CDA6C4d9c0F27d2565D688D292d3b0568DD613b",
+                        "https://dexscreener.com/pulsechain/0x2CDA6C4d9c0F27d2565D688D292d3b0568DD613b"
+                    ]
+                },
+                {
+                    "name": "ATROPAr",
+                    "contract_address": "0x6f8cbfa5072462282f331967730EDCe532a73b69",
+                    "ticker": "ATROPAr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x6f8cbfa5072462282f331967730edce532a73b69.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1028",
+                    "rewards_token": "ATROPA",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x6f8cbfa5072462282f331967730EDCe532a73b69",
+                        "https://dexscreener.com/pulsechain/0x6f8cbfa5072462282f331967730EDCe532a73b69"
+                    ]
+                },
+                {
+                    "name": "MINEr",
+                    "contract_address": "0xFa9Ff85e0dF45752df23d65D3b91e2b788C197Bf",
+                    "ticker": "MINEr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xfa9ff85e0df45752df23d65d3b91e2b788c197bf.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1087",
+                    "rewards_token": "WBTC",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xFa9Ff85e0dF45752df23d65D3b91e2b788C197Bf",
+                        "https://dexscreener.com/pulsechain/0xFa9Ff85e0dF45752df23d65D3b91e2b788C197Bf"
+                    ]
+                },
+                {
+                    "name": "DIGr",
+                    "contract_address": "0x61496615a3CC5f3Bed6dAd8Cf3945Cb6D7765f02",
+                    "ticker": "DIGr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x61496615a3cc5f3bed6dad8cf3945cb6d7765f02.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1035",
+                    "rewards_token": "PAXG",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x61496615a3CC5f3Bed6dAd8Cf3945Cb6D7765f02",
+                        "https://dexscreener.com/pulsechain/0x61496615a3CC5f3Bed6dAd8Cf3945Cb6D7765f02"
+                    ]
+                },
+                {
+                    "name": "A1Ax",
+                    "contract_address": "0xA3e20671EB098321305c925D16e0d38b443ebd55",
+                    "ticker": "A1Ax",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xa3e20671eb098321305c925d16e0d38b443ebd55.png?size=lg",
+                    "buy_tax": 0,
+                    "sell_tax": 0,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1101",
+                    "rewards_token": "A1A",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xA3e20671EB098321305c925D16e0d38b443ebd55",
+                        "https://dexscreener.com/pulsechain/0xA3e20671EB098321305c925D16e0d38b443ebd55"
+                    ]
+                },
+                {
+                    "name": "B2Bx",
+                    "contract_address": "0xABa034923f29Bd8e7C09afE7F2E5b255B18BFD48",
+                    "ticker": "B2Bx",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xaba034923f29bd8e7c09afe7f2e5b255b18bfd48.png?size=lg",
+                    "buy_tax": 2,
+                    "sell_tax": 2,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1098",
+                    "rewards_token": "B2B",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 2% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xABa034923f29Bd8e7C09afE7F2E5b255B18BFD48",
+                        "https://dexscreener.com/pulsechain/0xABa034923f29Bd8e7C09afE7F2E5b255B18BFD48"
+                    ]
+                },
+                {
+                    "name": "WHOr",
+                    "contract_address": "0xF49C5Dd8f51f36F609e4c87E20BCc7AADC51aEfb",
+                    "ticker": "WHOr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xf49c5dd8f51f36f609e4c87e20bcc7aadc51aefb.png?size=lg",
+                    "buy_tax": 2,
+                    "sell_tax": 2,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1070",
+                    "rewards_token": "BEL ㉶",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 2% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xF49C5Dd8f51f36F609e4c87E20BCc7AADC51aEfb",
+                        "https://dexscreener.com/pulsechain/0xF49C5Dd8f51f36F609e4c87E20BCc7AADC51aEfb"
+                    ]
+                },
+                {
+                    "name": "LENDr",
+                    "contract_address": "0x4E6a5Bf1a97912269d5Af5da4861088507e16fa8",
+                    "ticker": "LENDr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x4e6a5bf1a97912269d5af5da4861088507e16fa8.png?size=lg",
+                    "buy_tax": 2,
+                    "sell_tax": 2,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1042",
+                    "rewards_token": "AAVE",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 2% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x4E6a5Bf1a97912269d5Af5da4861088507e16fa8",
+                        "https://dexscreener.com/pulsechain/0x4E6a5Bf1a97912269d5Af5da4861088507e16fa8"
+                    ]
+                },
+                {
+                    "name": "PONKr",
+                    "contract_address": "0xf36A961c05bCc239E2ebCdce94C975B4e354d94A",
+                    "ticker": "PONKr",
+                    "decimal": 9,
+                    "supply": "10420069000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xf36a961c05bcc239e2ebcdce94c975b4e354d94a.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "956",
+                    "rewards_token": "eBONK",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xf36A961c05bCc239E2ebCdce94C975B4e354d94A",
+                        "https://dexscreener.com/pulsechain/0xf36A961c05bCc239E2ebCdce94C975B4e354d94A"
+                    ]
+                },
+                {
+                    "name": "LUSDr",
+                    "contract_address": "0xDE600e1ef1b5A4Ad89615a494cd58648b9163c4F",
+                    "ticker": "LUSDr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xde600e1ef1b5a4ad89615a494cd58648b9163c4f.png?size=lg",
+                    "buy_tax": 3,
+                    "sell_tax": 3,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "239",
+                    "rewards_token": "LUSD",
+                    "description": "A token in the Rewardr ecosystem ecosystem with a 3% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xDE600e1ef1b5A4Ad89615a494cd58648b9163c4F",
+                        "https://dexscreener.com/pulsechain/0xDE600e1ef1b5A4Ad89615a494cd58648b9163c4F"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "LpRewards ecosystem Ecosystem",
+            "tokens": [
+                {
+                    "name": "DaiLP",
+                    "contract_address": "0x6198D4E91E66508b887980A0665D49FAcd3CB89c",
+                    "ticker": "DaiLP",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x6198d4e91e66508b887980a0665d49facd3cb89c.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1143",
+                    "rewards_token": "eDAI/DAI PLP",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x6198D4E91E66508b887980A0665D49FAcd3CB89c",
+                        "https://dexscreener.com/pulsechain/0x6198D4E91E66508b887980A0665D49FAcd3CB89c"
+                    ]
+                },
+                {
+                    "name": "C3Cr",
+                    "contract_address": "0x99D6c086bf13f8Dc7858629ca637Fb900bb58925",
+                    "ticker": "C3Cr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x99d6c086bf13f8dc7858629ca637fb900bb58925.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1165",
+                    "rewards_token": "A1A/B2B PLP",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x99D6c086bf13f8Dc7858629ca637Fb900bb58925",
+                        "https://dexscreener.com/pulsechain/0x99D6c086bf13f8Dc7858629ca637Fb900bb58925"
+                    ]
+                },
+                {
+                    "name": "CENTr",
+                    "contract_address": "0x1Ce10867a7D779CC4E1B82A5a6A9D2E3768ad0C3",
+                    "ticker": "CENTr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x1ce10867a7d779cc4e1b82a5a6a9d2e3768ad0c3.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1219",
+                    "rewards_token": "(eDAI/DAI)/(eWBTC/BTC) PLP",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x1Ce10867a7D779CC4E1B82A5a6A9D2E3768ad0C3",
+                        "https://dexscreener.com/pulsechain/0x1Ce10867a7D779CC4E1B82A5a6A9D2E3768ad0C3"
+                    ]
+                },
+                {
+                    "name": "FARMr",
+                    "contract_address": "0xd5968F289fFb6eAFEc7c9108846e4b03a166Ae80",
+                    "ticker": "FARMr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xd5968f289ffb6eafec7c9108846e4b03a166ae80.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1  ,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1158",
+                    "rewards_token": "(PLS/PLSX)v2/INC PLP",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xd5968F289fFb6eAFEc7c9108846e4b03a166Ae80",
+                        "https://dexscreener.com/pulsechain/0xd5968F289fFb6eAFEc7c9108846e4b03a166Ae80"
+                    ]
+                },
+                {
+                    "name": "414r",
+                    "contract_address": "0x299B107b8945CF3ac8ECD1f69dBb9204bf27FA20",
+                    "ticker": "414r",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0x299b107b8945cf3ac8ecd1f69dbb9204bf27fa20.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1156",
+                    "rewards_token": "(Atropa/teddy/Bff/2cc/Crows/Monat/ⱏⱟⰿⰺⰹⱓⱒ/TSFi) Tokenized Asset",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0x299B107b8945CF3ac8ECD1f69dBb9204bf27FA20",
+                        "https://dexscreener.com/pulsechain/0x299B107b8945CF3ac8ECD1f69dBb9204bf27FA20"
+                    ]
+                },
+                {
+                    "name": "HexLP",
+                    "contract_address": "0xAD704ADf05edB9187cdCDE5d29556aAdaf92e2AA",
+                    "ticker": "HexLP",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xad704adf05edb9187cdcde5d29556aadaf92e2aa.png?size=lg",
+                    "buy_tax": 3,
+                    "sell_tax": 3,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1306",
+                    "rewards_token": "eHEX/HEX PLP",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 3% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xAD704ADf05edB9187cdCDE5d29556aAdaf92e2AA",
+                        "https://dexscreener.com/pulsechain/0xAD704ADf05edB9187cdCDE5d29556aAdaf92e2AA"
+                    ]
+                },
+                {
+                    "name": "BtcLP",
+                    "contract_address": "0xCd80146285Ce56dEf3Cf647e79cC3690dF139CeA",
+                    "ticker": "BtcLP",
+                    "decimal": 9,
+                    "supply": "3000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xcd80146285ce56def3cf647e79cc3690df139cea.png?size=lg",
+                    "buy_tax": 3,
+                    "sell_tax": 3,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1265",
+                    "rewards_token": "eWBTC/WBTC PLP",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 3% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xCd80146285Ce56dEf3Cf647e79cC3690dF139CeA",
+                        "https://dexscreener.com/pulsechain/0xCd80146285Ce56dEf3Cf647e79cC3690dF139CeA"
+                    ]
+                },
+                {
+                    "name": "BONEr",
+                    "contract_address": "0xF4a0c336256155726d5Aad620A241bD0EdB2D681",
+                    "ticker": "BONEr",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xf4a0c336256155726d5aad620a241bd0edb2d681.png?size=lg",
+                    "buy_tax": 2,
+                    "sell_tax": 2,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "986",
+                    "rewards_token": "SHIB/BONE PLP",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 2% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xF4a0c336256155726d5Aad620A241bD0EdB2D681",
+                        "https://dexscreener.com/pulsechain/0xF4a0c336256155726d5Aad620A241bD0EdB2D681"
+                    ]
+                },
+                {
+                    "name": "mATH",
+                    "contract_address": "0xc3ea115f6Af00e5f5E64044cc0F19B1a97335da8",
+                    "ticker": "mATH",
+                    "decimal": 9,
+                    "supply": "1000000000000000",
+                    "logo": "https://dd.dexscreener.com/ds-data/tokens/pulsechain/0xc3ea115f6af00e5f5e64044cc0f19b1a97335da8.png?size=lg",
+                    "buy_tax": 1,
+                    "sell_tax": 1,
+                    "reward_token": true,
+                    "reflection_token": false,
+                    "holders": "1292",
+                    "rewards_token": "PLP TENSOR ETF",
+                    "description": "A token in the LpRewards ecosystem ecosystem with a 1% transaction fee.",
+                    "chart": [
+                        "https://www.dextools.io/app/en/pulse/pair-explorer/0xc3ea115f6Af00e5f5E64044cc0F19B1a97335da8",
+                        "https://dexscreener.com/pulsechain/0xc3ea115f6Af00e5f5E64044cc0F19B1a97335da8"
+                    ]
+                }
+            ]
+        }
+    ]
+}
