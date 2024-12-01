@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stats</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .stats_body {
+            background: black;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .counter-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .counter-label {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .statistic {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1.2;
+            padding: 1rem;
+            display: inline-block;
+            color: white;
+        }
+
+        /* Buttons and form elements (if applicable) */
+        input,
+        button {
+            font-size: 1rem;
+            padding: 10px 15px;
+            border: 1px solid white;
+            border-radius: 6px;
+            background: transparent;
+            color: white;
+            transition: background 0.2s ease;
+        }
+
+        input:focus,
+        button:hover {
+            outline: none;
+            cursor: pointer;
+            background: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Stats Section -->
+    <section class="stats_body">
+        <div class="counter-container">
+            <div class="counter-label">Total Tokens in Ecosystem</div>
+            <p class="statistic" aria-live="polite">500</p>
+        </div>
+        <div class="counter-container">
+            <div class="counter-label">Total Transactions Across Ecosystem</div>
+            <p class="statistic" aria-live="polite">1000</p>
+        </div>
+        <div class="counter-container">
+            <div class="counter-label">Total Burned Pdai 🔥</div>
+            <p class="statistic" aria-live="polite">1223344</p>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js"></script>
+    <script src="navbar.js"></script>
+    <script>
+        // Count-up animation options
+        const countUpOptions = {
+            useEasing: true,
+            useGrouping: true,
+            separator: ",",
+            decimal: ".",
+        };
+
+        // Initialize count-up animations
+        $(document).ready(() => {
+            $(".statistic").each((index, element) => {
+                const value = parseInt($(element).text().replace(/,/g, ""), 10) || 0;
+
+                // Ensure valid input
+                if (!isNaN(value)) {
+                    const animation = new CountUp(element, 0, value, 0, 2.5, countUpOptions);
+                    animation.start();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
