@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .lore_section {
+            animation-name: toBlack;
+            animation-duration: 6s;
+            animation-fill-mode: forwards;
+
+            position: relative;
+            height: 100vh;
+            background-image: url('collage_bw.png');
+            background-size: auto 100%;
+            animation: move-image 20s linear infinite;
+            overflow-y: scroll;
+        }
+
+        @keyframes move-image {
+            0% {
+                background-position: 0 0;
+            }
+
+            50% {
+                background-position: -100% 0;
+            }
+
+            100% {
+                background-position: -200% 0;
+            }
+        }
+        @keyframes toBlack {
+            0% {
+                background-color: #f9f6ea;
+            }
+
+            60% {
+                background-color: #f9f6ea;
+            }
+
+            100% {
+                background-color: black;
+            }
+        }
+
+        @keyframes toRed {
+            0% {
+                color: white;
+            }
+
+            50% {
+                color: white;
+            }
+
+            100% {
+                color: rgb(219, 18, 142);
+            }
+        }
+
+        .ecosystem {
+            margin: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            justify-content: center;
+            justify-content: center;
+            max-width: 720px;
+            margin-inline: auto;
+            padding: 1rem;
+        }
+
+        .ecosystem-tokens {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .token-card {
+            background-color: rgb(0, 0, 0);
+            padding: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            color: #b6bef2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            padding: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .token-card {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.5rem;
+            }
+        }
+
+        .token-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .token-img h3 {
+            font-family: "Merriweather", serif;
+            font-size: 1.25rem;
+        }
+
+        .token-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .token-details {
+            text-wrap: wrap;
+        }
+
+        .token-actions a {
+            display: inline-block;
+            background-color: #ff529b;
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        .token-actions a:hover {
+            background-color: #e04386;
+        }
+
+        #filter-container {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #filter-container label {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-weight: 500;
+            color: #b6bef2;
+        }
+
+        #ecosystem-filter {
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 1px solid #b6bef2;
+            background-color: #202544;
+            color: #b6bef2;
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="lore_section">
+
+        <div class="logo-container">
+        </div>
+        
+        <div class="container">
+            <div id="filter-container">
+                <label for="ecosystem-filter">Filter by Ecosystem:</label>
+                <select id="ecosystem-filter">
+                    <option value="all">All Ecosystems</option>
+                </select>
+            </div>
+            
+            <!-- Ecosystem Cards -->
+            <div id="ecosystem-container">
+                <!-- Content will be dynamically injected here -->
+            </div>
+        </div>
+    </section>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/267285/jquery.lettering.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/267285/jquery.textillate.js'></script>
+    <script>
+        $(document).ready(function () {
+            $('span').textillate({
+                initialDelay: 100,
+                loop: false,
+                in: {
+                    effect: 'fadeInUp',
+                    delayScale: .4,
+                    delay: 6,
+                    sync: false,
+                    shuffle: true
+                },
+                type: 'word'
+            });
+        });
+    </script>
+    <script>
+        const jsonUrl = 'final_ecosystem_V2.json';
+
+        let ecosystemsData = [];
+
+        // Fetch JSON data and render content
+        async function loadEcosystems() {
+            try {
+                const response = await fetch(jsonUrl);
+                const data = await response.json();
+                ecosystemsData = data.ecosystems;
+
+                populateFilter(data.ecosystems); // Populate filter dropdown
+                renderEcosystems('all'); // Render all ecosystems initially
+            } catch (error) {
+                console.error('Error loading ecosystems:', error);
+            }
+        }
+
+        // Populate the filter dropdown
+        function populateFilter(ecosystems) {
+            const filter = document.getElementById('ecosystem-filter');
+            let filterOptions = '<option value="all">All Ecosystems</option>';
+            ecosystems.forEach((ecosystem, index) => {
+                filterOptions += `<option value="${index}">${ecosystem.name}</option>`;
+            });
+            filter.innerHTML = filterOptions;
+
+            // Add change event listener to filter dropdown
+            filter.addEventListener('change', (event) => {
+                const selectedEcosystem = event.target.value;
+                renderEcosystems(selectedEcosystem);
+            });
+        }
+
+        // Render ecosystems based on the selected filter
+        function renderEcosystems(filterValue) {
+            const container = document.getElementById('ecosystem-container');
+            container.innerHTML = ''; // Clear previous content
+
+            const filteredEcosystems =
+                filterValue === 'all'
+                    ? ecosystemsData
+                    : [ecosystemsData[filterValue]];
+
+            let ecosystemHTML = '';
+            filteredEcosystems.forEach(ecosystem => {
+                let tokensHTML = '';
+
+                ecosystem.tokens.forEach(token => {
+                    // Create token details
+                    const chartLinksHTML = token.chart
+                        .map(link => `<a href="${link}" target="_blank">View Chart</a>`)
+                        .join('');
+
+                    const img = token.logo || "pngegg"
+                    tokensHTML += `
+        <div class="token-card">
+          <div class="token-img">
+            <img src="${img}" alt="${token.name} Logo">
+            <h3>${token.name} (${token.ticker})</h3>
+          </div>
+          <div class="token-details">
+            <p><strong>Contract:</strong> ${token.contract_address}</p>
+            <p><strong>Supply:</strong> ${token.supply}</p>
+            <p><strong>Buy Tax:</strong> ${token.buy_tax}%</p>
+            <p><strong>Sell Tax:</strong> ${token.sell_tax}%</p>
+            <p>${token.description}</p>
+            <div class="token-actions">
+              ${chartLinksHTML}
+            </div>
+          </div>
+        </div>`;
+                });
+
+                ecosystemHTML += `
+      <div class="ecosystem">
+      <img src="${ecosystem.name.toLowerCase().replace(/\s+/g, '_')}.png" alt="${ecosystem.name} Image">
+        <div class="ecosystem-tokens">
+          ${tokensHTML}
+        </div>
+      </div>`;
+            });
+
+            container.innerHTML = ecosystemHTML;
+        }
+
+        // Load ecosystems on page load
+        document.addEventListener('DOMContentLoaded', loadEcosystems);
+
+    </script>
+    <script src="navbar.js"></script>
+</body>
+
+</html>
